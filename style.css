@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background: url("barba.jpg");
+   }
+   .btn-success:hover{
+    background-color: blueviolet;
+   }
+   h3
+    {
+      font-size: 25px !important;
+    }
+    canvas {
+      animation-name: exemplo;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes exemplo{
+      from{
+        box-shadow: 6px 6px 38px rgb(0, 110, 255);
+      }
+      to{
+        box-shadow:6px 6px 38px rgb(140, 0, 255);
+      }
+    }
